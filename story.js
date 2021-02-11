@@ -16,7 +16,7 @@ var config = {
         description: 'Mandatory closures of businesses including restaurants has meant that businesses may struggle to keep afloat during and after the pandemic. The following will highlight some of those stories.',
         location: {
           center: [-75.69134, 45.42669],
-          zoom: 20,
+          zoom: 0,
           pitch: 60,
           bearing: -43.2
         },
@@ -26,7 +26,7 @@ var config = {
         {
         id: 'slug-style-id',
         title: 'Highlander Pub',
-        //image: './path/to/image/source.png',
+        image: '/images/highlander.jpg',
         description: 'A well known pub on Rideau St.',
         location: {
             center: [-75.69134, 45.42669],
@@ -64,7 +64,7 @@ var config = {
         {
         id: 'other-identifier',
         title: 'Plant and Curio',
-        //image: './path/to/image/source.png',
+        image: '/images/plant.jpg',
         description: 'Plant and Curio though not permanently closed adapted its business model during the summer-fall months of the pandemic to have outdoors shopping on the patio/steps of their shop. During winter prior to the shutdown they switched models to primarily online to deal with reduced capacity allowed in store.',
         location: {
             center: [-75.712900, 45.406850,],
@@ -78,7 +78,7 @@ var config = {
         {
           id: 'Temporary_Closures',
           title: 'Bar Hopping on Elgin St Leads to Five Temporary Closures',
-          image: '.img/download.png',
+          //image: '.img/download.png',** RJ add image here **
           description:'Elgin St. saw five temporary closures of bars and restaurants from two individuals who were awaiting their COVID test results. These individuals visted those locations while awaiting their tetst results and when the tests came back positive, the businesses voluntarily closed for two weeks to test their employees to ensure safe operations. It is unknown how much revenue was lost during these closures, however, it is important to note how badly that revenue was needed because of restricted operations. The affected businesses were:',
 
      /*   <ul>
