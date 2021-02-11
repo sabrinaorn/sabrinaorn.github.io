@@ -92,7 +92,7 @@ var config = {
          {
           id: 'chart',
           title: 'Tracking Positive Cases in Ottawa since February 2020',
-          image: '.img/oph.jpg',
+          image: '/images/oph.jpg',
           description: '<canvas id="myChart" width="400" height="400"></canvas>',
           location: {
               center: [-75.67532, 45.40719],
