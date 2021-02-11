@@ -299,6 +299,41 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             }
         });
     });
+      var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+      labels: ['Feb20', 'Mar20', 'Apr20', 'May20', 'Jun20', 'Jul20', 'Aug20', 'Sep20', 'Oct20', 'Nov20', 'Dec20', 'Jan21'],
+      datasets: [{
+          label: '7-day Average of Newly Reported Cases',
+          data: [5, 27.1, 55.7, 9.4, 4.4, 20, 16.4, 76, 81.6, 43.4, 84.6, 55.7],
+          backgroundColor: [
+              'rgba(255, 99, 132, 0.2)',
+              'rgba(54, 162, 235, 0.2)',
+              'rgba(255, 206, 86, 0.2)',
+              'rgba(75, 192, 192, 0.2)',
+              'rgba(153, 102, 255, 0.2)',
+              'rgba(255, 159, 64, 0.2)',
+              'rgba(255, 20, 147, 0.2)',
+              'rgba(210, 105, 30, 0.2)',
+              'rgba(127, 255, 212, 0.2)',
+              'rgba(47, 79, 79, 0.2)',
+              'rgba(255, 215, 0, 0.2)',
+              'rgba(199, 21, 133, 0.2)'
+          ],
+          borderWidth: 1
+      }]
+  },
+  options: {
+      scales: {
+          yAxes: [{
+              ticks: {
+                  beginAtZero: true
+              }
+          }]
+      }
+  }
+});
 
     // setup resize event
     window.addEventListener('resize', scroller.resize);
