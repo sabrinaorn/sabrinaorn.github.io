@@ -50,7 +50,7 @@ var config = {
     {
         id: 'other-identifier',
         title: 'Wheelhouse Warehouse',
-        //image: './path/to/image/source.png',
+        image: '/images/wheelhouse.jpg',
         description: 'Wheelhouse is a gym that is based around group indoor cycling class. As a response to the pandemic and provincial measures regarding the gyms and exercise class Wheelhouse had to continuously adapt its business model and locations. Prior to the pandemic Wheelhouse had a location on West Wellington and Bank street. Neither of these locations could adapt to the provincial requirements for gyms to open so they opened Wheelhouse at the Warehouse location and permanently closed their doors at the Wellington location.',
         location: {
             center: [-75.716660, 45.408750],
