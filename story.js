@@ -9,24 +9,10 @@ var config = {
     byline: 'Rajpal Dhaliwal, Olivia Hobbs, RJ Mitchell, Sabrina Ornawka',
     footer: 'GEOM 4001',
     chapters: [
-      {
-        id: 'intro-identifier',
-        title: 'How the Virus has Affected Businesses',
-        //image: 'C:/Users/sabri/Documents/Fourth Year Work/Internet GEOM 4001/Assignment One/Assignement1_Template/images/closed_business.jpg',
-        description: 'Mandatory closures of businesses including restaurants has meant that businesses may struggle to keep afloat during and after the pandemic. The following will highlight some of those stories.',
-        location: {
-            center: [-75.700818, 45.407783],
-            zoom: 13.5,
-            pitch: 60,
-            bearing: -43.2
-        },
-        onChapterEnter: [],
-        onChapterExit: []
-      },
        {
         id: 'intro-identifier',
         title: 'How the Virus has Affected Businesses',
-        image: 'C:/Users/sabri/Documents/Fourth Year Work/Internet GEOM 4001/Assignment One/Assignement1_Template/images/closed_business.jpg',
+        image: '/images/closed_business.jpg',
         description: 'Mandatory closures of businesses including restaurants has meant that businesses may struggle to keep afloat during and after the pandemic. The following will highlight some of those stories.',
         location: {
           center: [-77.020636, 38.886900],
