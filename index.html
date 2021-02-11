@@ -304,10 +304,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     // setup resize event
     window.addEventListener('resize', scroller.resize);
     
-   var ctx = document.getElementById('myChart').getContext('2d');
-   var myChart = new Chart(ctx, {
-  type: 'bar',
-  data: {
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+   type: 'bar',
+   data: {
       labels: ['Feb20', 'Mar20', 'Apr20', 'May20', 'Jun20', 'Jul20', 'Aug20', 'Sep20', 'Oct20', 'Nov20', 'Dec20', 'Jan21'],
       datasets: [{
           label: '7-day Average of Newly Reported Cases',
@@ -341,5 +341,5 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 });
 
   </script>
-  </body>
+    </body>
 </html>
