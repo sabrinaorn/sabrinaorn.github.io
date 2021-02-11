@@ -47,7 +47,7 @@ var config = {
             // }
         ]
       },
-    /* {
+     {
         id: 'olive1',
         title: 'Wheelhouse Warehouse',
         image: '/images/wheelhouse.jpg',
