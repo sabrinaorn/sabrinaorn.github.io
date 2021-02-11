@@ -15,8 +15,8 @@ var config = {
         image: '/images/closed_business.jpg',
         description: 'Mandatory closures of businesses including restaurants has meant that businesses may struggle to keep afloat during and after the pandemic. The following will highlight some of those stories.',
         location: {
-          center: [-77.020636, 38.886900],
-          zoom: 13.5,
+          center: [-75.69134, 45.42669],
+          zoom: 20,
           pitch: 60,
           bearing: -43.2
         },
