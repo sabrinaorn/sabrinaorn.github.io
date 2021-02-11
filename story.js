@@ -78,7 +78,7 @@ var config = {
         {
           id: 'Temporary_Closures',
           title: 'Bar Hopping on Elgin St Leads to Five Temporary Closures',
-          //image: '.img/download.png',** RJ add image here **
+          image: '/images/collage.jpg',
           description:'Elgin St. saw five temporary closures of bars and restaurants from two individuals who were awaiting their COVID test results. These individuals visted those locations while awaiting their tetst results and when the tests came back positive, the businesses voluntarily closed for two weeks to test their employees to ensure safe operations. It is unknown how much revenue was lost during these closures, however, it is important to note how badly that revenue was needed because of restricted operations. The affected businesses were:',
 
      /*   <ul>
