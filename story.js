@@ -88,7 +88,7 @@ var config = {
           },
           onChapterEnter: [],
           onChapterExit: []
-        }
+        },
          {
           id: 'chart',
           title: 'Tracking Positive Cases in Ottawa since February 2020',
