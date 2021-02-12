@@ -24,10 +24,10 @@ var config = {
         onChapterExit: []
     },
         {
-        id: 'slug-style-id',
+        id: 'raj1',
         title: 'Highlander Pub',
         image: '/images/highlander.jpg',
-        description: 'A well known pub on Rideau St.',
+        description: 'In the vibrant location of Byward Market, this Scottish-themed pub has operated for 18 years, and has been known for it’s largest collection of single malt scotch whiskeys in all of Ottawa. It is finally shutting its door due the COVID-19 pandemic. This pub has routeinely faced issues that affected its survival in the past. The lengthy construction on rideau street to the construction of the new LRT put this pub at risk for closure multiple times. The COVID19 pandemic and the government’s operational restriction placed on non-essential businesses was the finaly nail in the coffin.',
         location: {
             center: [-75.69134, 45.42669],
             zoom: 16,
