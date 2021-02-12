@@ -3,7 +3,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoicmFqZGg5MSIsImEiOiJja2tzcHk1Nm0wamljMndvaTludjNvYnhwIn0.Su2FmYBqsJv6JLPh3dUMCA',
     showMarkers: true,
     theme: 'dark',
-    alignment: 'left',
+    alignment: 'right',
     title: "Sorry We're Closed.",
     subtitle: 'Visualizing the Impact of the Covid-19 Pandemic on Businesses in Ottawa',
     byline: 'Rajpal Dhaliwal, Olivia Hobbs, RJ Mitchell, Sabrina Ornawka',
