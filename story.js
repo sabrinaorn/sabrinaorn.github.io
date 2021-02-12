@@ -35,16 +35,8 @@ var config = {
             bearing: 0
         },
         onChapterEnter: [
-            // {
-            //     layer: 'layer-name',
-            //     opacity: 1
-            // }
         ],
         onChapterExit: [
-            // {
-            //     layer: 'layer-name',
-            //     opacity: 0
-            // }
         ]
       },
      {
@@ -75,6 +67,27 @@ var config = {
         onChapterEnter: [],
         onChapterExit: []
       },
+        
+       {
+          id: 'raj2',
+          title: 'Continental Bagel Co.',
+          image: '/images/Continental_Sign.jpg',
+          description: 'A family run business that has been operating for 17 years is to be closed. The family running the business had virtually no idea about bagels but learned throughout the years to create a profitable business. Owner said the business relied much on tourism in the Byward Market, and drops in tourism meant low profits for another business in the "market".  <ol>  <li>Web Maps</li>  </ol> ',
+
+          location: {
+              center: [-75.69251, 45.42762],
+              zoom: 16,
+              pitch: 60,
+              bearing: -43.2
+          },
+          onChapterEnter: [
+          ],
+          onChapterExit: [
+          ]
+        },
+        
+        
+        
         {
           id: 'Temporary_Closures',
           title: 'Bar Hopping on Elgin St Leads to Five Temporary Closures',
